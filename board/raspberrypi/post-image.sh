@@ -37,6 +37,14 @@ __EOF__
 
 # enable rpi3 ttyS0 serial console
 enable_uart=1
+
+# 7' LCD Display Config 
+max_usb_current=1
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 800 480 60 6 0 0 0
+hdmi_drive=1
+
 __EOF__
 		fi
 		;;
